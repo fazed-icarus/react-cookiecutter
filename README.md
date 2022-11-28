@@ -8,3 +8,4 @@ React project template.
 ## Package Managers
 
 npm
+yarn

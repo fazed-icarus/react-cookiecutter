@@ -1,0 +1,12 @@
+[tool.proman]
+version = "0.1.0"
+
+[[tool.proman.versioning.files]]
+compat = "semver"
+filepath = ".versioning"
+pattern = "version = \"${version}\""
+
+[[tool.proman.versioning.files]]
+compat = "semver"
+filepath = "package.json"
+pattern = "version: \"${version}\""
