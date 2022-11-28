@@ -1,0 +1,31 @@
+{
+  "author": "",
+  "email": "",
+  "account": "",
+  "project_name": "Project Name",
+  "project_description": "My Project.",
+  "project_slug": "{{ cookiecutter.project_name | slugify }}",
+  "module_name": "{{ cookiecutter.project_slug | replace('-', '_') }}",
+  "build_system": [
+    "yarn",
+    "npm"
+  ],
+  "license": [
+    "Unlicensed",
+    "Apache-2.0",
+    "MIT",
+    "MPL-2.0",
+    "AGPL-3.0",
+    "GPL-3.0",
+    "LGPL-3.0"
+  ],
+  "_copy_without_render": [
+    "*.html",
+    "*.js",
+    ".github/workflows/main.yml"
+  ],
+  "_extensions": [
+    "cookiecutter.extensions.SlugifyExtension",
+    "jinja2_time.TimeExtension"
+  ]
+}
