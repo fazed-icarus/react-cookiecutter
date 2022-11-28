@@ -7,6 +7,5 @@ React project template.
 
 ## Package Managers
 
-npm
-
-yarn
+* npm
+* yarn
