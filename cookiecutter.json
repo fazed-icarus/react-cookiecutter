@@ -7,8 +7,8 @@
   "project_slug": "{{ cookiecutter.project_name | slugify }}",
   "module_name": "{{ cookiecutter.project_slug | replace('-', '_') }}",
   "build_system": [
-    "yarn",
-    "npm"
+    "npm",
+    "yarn"
   ],
   "license": [
     "Unlicensed",
